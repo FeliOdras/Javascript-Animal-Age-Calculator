@@ -7,9 +7,7 @@ function calculateAge(animal, humanAge) {
     } else if (animal = 'chincilla') {
         animalAge = humanAge * 25;
     }
-    console.log(`Animal: ${animal}`);
-    console.log(`Human Age: ${humanAge}`);
-    console.log(`Animal Age: ${animalAge}`);
+    console.log(`${humanAge} years are ${animalAge} years in a ${animal}'s life`);
 }
 calculateAge('dog', 6)
 
