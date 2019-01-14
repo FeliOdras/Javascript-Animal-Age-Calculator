@@ -1,6 +1,4 @@
-function calculateAge(animal, age) {
-    let animalType = 'cow';
-    let humanAge = 3;
+function calculateAge(animal, humanAge) {
     let animalAge;
     if (animal = 'dog') {
         animalAge = humanAge * 7;
@@ -9,11 +7,11 @@ function calculateAge(animal, age) {
     } else if (animal = 'chincilla') {
         animalAge = humanAge * 25;
     }
-    console.log(`Animal: ${animalType}`);
+    console.log(`Animal: ${animal}`);
     console.log(`Human Age: ${humanAge}`);
     console.log(`Animal Age: ${animalAge}`);
 }
-calculateAge('cow', 3)
+calculateAge('dog', 6)
 
 
 // document.getElementById('animalAgeResult').innerHTML = calulateAge();
