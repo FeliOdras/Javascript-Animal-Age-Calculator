@@ -7,7 +7,10 @@ function calc() {
     // calculate result
     let animalAge;
     let animalPic;
-    if (animal == 'dog') {
+    if (animal == 'horse') {
+        animalAge = humanAge * 4;
+        animalPic = './assets/images/horse.jpg';
+    } else if (animal == 'dog') {
         animalAge = humanAge * 7;
         animalPic = './assets/images/dog.jpg';
     } else if (animal == 'cow') {
