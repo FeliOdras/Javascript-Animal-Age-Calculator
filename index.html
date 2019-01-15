@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Animal Age Calculator</title>
+  </head>
 
-</head>
-
-<body>
-    <!-- <form id="animalAgeCalculatorForm">
-        <label for="animal">Animal</label>
-        <select name="animal" id="animal">
-            <option value="dog">Dog</option>
-            <option value="cow">Cow</option>
-            <option value="chincilla">Chincilla</option>
-        </select>
-        <label for="humanAge">Human age in years</label>
-        <input type="text" name="humanAge">
-        <input type="submit" value="Calculate age" id="calculateAge()" onclick="calulateAge(this)">
-    </form>-->
+  <body>
+    <form id="animalAgeCalculatorForm">
+      <label for="animal">Animal</label>
+      <select name="animalType" id="animalType">
+        <option value="dog">Dog</option>
+        <option value="cow">Cow</option>
+        <option value="chinchilla">Chinchilla</option>
+      </select>
+      <label for="humanAge">Human age in years</label>
+      <input type="number" name="humanAge" id="humanAge" />
+      <input
+        type="submit"
+        value="Calculate age"
+        id="calculateAge"
+        onclick="calc()"
+      />
+    </form>
     <p id="animalAgeResult"></p>
     <script src="assets/js/animalAgeCalculator.js"></script>
-
-</body>
-
+  </body>
 </html>
