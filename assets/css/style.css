@@ -1,7 +1,6 @@
-/* gochi-hand-regular - latin */
-@font-face {
-  font-family: 'Gochi Hand';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Gochi Hand"), local("GochiHand-Regular"), url("./assets/fonts/gochi-hand-v8-latin-regular.woff2") format("woff2"), url("./assets/fonts/gochi-hand-v8-latin-regular.woff") format("woff"), url("./assets/fonts/gochi-hand-v8-latin-regular.ttf") format("truetype"), url("./assets/fonts/gochi-hand-v8-latin-regular.svg#GochiHand") format("svg");
-  /* Legacy iOS */ }
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand|Noto+Sans+KR");
+body {
+  font-family: 'Noto Sans KR', sans-serif; }
+
+.main-header h1 {
+  font-family: 'Gochi Hand', cursive; }
