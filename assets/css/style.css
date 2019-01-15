@@ -6,3 +6,17 @@ body {
   text-align: center; }
   .main-header h1 {
     font-family: 'Gochi Hand', cursive; }
+
+form {
+  margin-top: 30px; }
+  form .form-item {
+    text-align: center;
+    margin: 15px; }
+    form .form-item label {
+      display: block; }
+
+#animalAgeResult {
+  text-align: center; }
+  #animalAgeResult img {
+    width: 300px;
+    height: auto; }
