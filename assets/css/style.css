@@ -10,6 +10,9 @@
 body {
   font-family: 'Noto Sans KR', sans-serif; }
 
+body {
+  background-color: #FFF2FC; }
+
 .main-header {
   text-align: center;
   background-color: #D700BF;
@@ -22,7 +25,7 @@ body {
     font-size: 2rem; }
 
 form {
-  margin: 30px auto 20px;
+  padding: 10px;
   text-align: center;
   border: 1px solid #ccc; }
   form .form-item {
@@ -30,7 +33,9 @@ form {
     margin: 15px;
     display: inline-block; }
     form .form-item label {
-      display: block; }
+      display: block;
+      font-size: .8rem;
+      color: #D700BF; }
 
 #animalAgeResult {
   text-align: center; }
