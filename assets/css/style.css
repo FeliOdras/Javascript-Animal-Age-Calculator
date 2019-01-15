@@ -55,6 +55,7 @@ form {
       padding: 5px 10px; }
 
 #animalAgeResult {
+  padding: 25px 10px;
   text-align: center; }
   #animalAgeResult img {
     width: 300px;

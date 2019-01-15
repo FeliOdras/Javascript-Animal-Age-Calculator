@@ -22,7 +22,7 @@ function calc() {
 
     let calcOutput;
     if (humanAge < 1 || animal == 'empty') {
-        calcOutput = `<p class="error">You need to fill all the fields to calculate your pet's age.</p>`;
+        calcOutput = `<p class="error">ERROR! <br />You need to fill all the fields to calculate your pet's age.</p>`;
     } else {
         calcOutput = `<img src=${animalPic} alt=${animal} class="animalPic" /><p class="result">${humanAge == 1 ? 'One year' : humanAge+ ' years'} are ${animalAge} years in a ${animal}'s life.</p>`;
     }
