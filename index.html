@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <form id="animalAgeCalculatorForm">
+    <form id="animalAgeCalculatorForm" onSubmit="return false;">
       <label for="animal">Animal</label>
       <select name="animalType" id="animalType">
         <option disabled selected value> -- select your animal -- </option>
@@ -25,6 +25,8 @@
         onclick="calc()"
       />
     </form>
+    <p id="errorMessage1"></p>
+    <p id="errorMessage2"></p>
     <p id="animalAgeResult"></p>
     <script src="assets/js/animalAgeCalculator.js"></script>
   </body>
