@@ -9,11 +9,11 @@ function calc() {
     } else if (animal == 'chinchilla') {
         animalAge = humanAge * 25;
     } else {
-        alert("You need to select your pet")
+        document.getElementById('errorMessage1').innerHTML = "Please select your pet";
     }
 
     if (humanAge <= 0 || humanAge == '') {
-        alert("Please type your pet's age in human years");
+        document.getElementById('errorMessage2').innerHTML = "Please type your pet's age in human years";
     }
     document.getElementById('animalAgeResult').innerHTML = `${humanAge} years are ${animalAge} years in a ${animal}'s life`;
 }
