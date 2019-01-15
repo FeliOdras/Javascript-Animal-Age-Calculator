@@ -60,3 +60,17 @@ form {
   #animalAgeResult img {
     width: 300px;
     height: auto; }
+  #animalAgeResult .error {
+    border: 3px solid #D700BF;
+    display: inline-block;
+    padding: 20px 20px 20px 60px;
+    position: relative;
+    color: #770087; }
+  #animalAgeResult .error::before {
+    content: '!';
+    position: absolute;
+    left: 10px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 6rem;
+    top: 0;
+    color: #D700BF; }
