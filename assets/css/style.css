@@ -59,7 +59,15 @@ form {
   text-align: center; }
   #animalAgeResult img {
     width: 300px;
-    height: auto; }
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
+    box-shadow: 0 0 10px #FED6F4; }
+  #animalAgeResult .result {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.5rem;
+    color: #D700BF;
+    padding: 20px 10px; }
   #animalAgeResult .error {
     border: 3px solid #D700BF;
     display: inline-block;
