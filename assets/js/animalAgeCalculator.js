@@ -1,3 +1,5 @@
+"use strict"
+
 function calc() {
     let animal = document.getElementById('animalType').value;
     let humanAge = document.getElementById('humanAge').value;
@@ -14,7 +16,7 @@ function calc() {
         animal = 'empty';
     }
 
-    let errorMessage;
+    let calcOutput;
     if (humanAge < 1 || animal == 'empty') {
         calcOutput = `<p class="error">You need to fill all the fields to calculate your pet's age.</p>`;
     } else {
