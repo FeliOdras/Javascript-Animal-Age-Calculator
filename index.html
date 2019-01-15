@@ -14,21 +14,27 @@
     </header>
     <main id="mainContent" class="main-content">
       <form id="animalAgeCalculatorForm" onSubmit="return false;">
-        <label for="animal">Animal</label>
-        <select name="animalType" id="animalType">
-          <option disabled selected value> -- select your animal -- </option>
-          <option value="dog">Dog</option>
-          <option value="cow">Cow</option>
-          <option value="chinchilla">Chinchilla</option>
-        </select>
-        <label for="humanAge">Human age in years</label>
-        <input type="number" name="humanAge" id="humanAge" />
-        <input
-          type="submit"
-          value="Calculate age"
-          id="calculateAge"
-          onclick="calc()"
-        />
+        <div class="form-item">
+          <label for="animal">Animal</label>
+          <select name="animalType" id="animalType">
+            <option disabled selected value> -- select your animal -- </option>
+            <option value="dog">Dog</option>
+            <option value="cow">Cow</option>
+            <option value="chinchilla">Chinchilla</option>
+          </select>
+        </div>
+        <div class="form-item">
+          <label for="humanAge">Human age in years</label>
+          <input type="number" name="humanAge" id="humanAge" />
+        </div>
+        <div class="form-item">
+          <input
+            type="submit"
+            value="Calculate age"
+            id="calculateAge"
+            onclick="calc()"
+          />
+        </div>
       </form>
       <div id="animalAgeResult"></div>
       <script src="assets/js/animalAgeCalculator.js"></script>
