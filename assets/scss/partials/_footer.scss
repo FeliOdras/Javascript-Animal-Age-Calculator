@@ -1,0 +1,20 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #D700BF;
+    text-align: center;
+    padding: 10px;
+    font-size: .7rem;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px dotted #FCA0E6;
+    }
+
+    a:hover {
+        border-bottom-style: solid;
+    }
+
+}
