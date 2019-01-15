@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Gochi+Hand|Noto+Sans+KR");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 body {
   font-family: 'Noto Sans KR', sans-serif; }
 
 .main-header {
   text-align: center; }
   .main-header h1 {
-    font-family: 'Gochi Hand', cursive; }
+    font-family: 'Gochi Hand', cursive;
+    color: hotpink; }
 
 form {
   margin: 30px auto 20px;
