@@ -1,7 +1,7 @@
 form {
     padding: 10px;
     text-align: center;
-    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #FDBBED;
 
     .form-item {
         text-align: center;
@@ -11,7 +11,28 @@ form {
         label {
             display: block;
             font-size: .8rem;
-            color: #D700BF;
+            color: #770087;
+        }
+
+        select,
+        option,
+        input {
+            background-color: #FED6F4;
+            color: #770087;
+            border-radius: 5px;
+            padding: 5px;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: .7rem;
+            border: none;
+        }
+
+        input[type='submit'] {
+            color: #FFF;
+            background-color: #D700BF;
+            font-family: 'Gochi Hand', cursive;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            padding: 5px 10px;
         }
     }
 }
