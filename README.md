@@ -1,4 +1,4 @@
-# CountryFinder
+# Javascript Animal Age Calculator
 
 _Simple JavaScript App to calculate your pet's age_
 
